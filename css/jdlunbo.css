@@ -1,0 +1,64 @@
+@import url(./base.css);
+
+.win{
+	width: 1170px;
+	height: 160px;
+	position: relative;
+	margin: 20px auto;
+	background: #ccc;
+	border: 10px solid #ccc;
+	border-left-width: 15px;
+	border-right-width: 15px;
+	overflow: hidden;
+}
+
+.imgB{
+	width: 1170px;
+	height: 160px;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+
+
+/*.tu img{
+	height: 160px;
+	width: 284px;
+	margin-right: 5px;
+	float: left;
+	margin-left: 3px;
+
+}*/
+.imgB a{
+	height: 160px;
+	width: 284px;
+	float:  left;
+	margin-left: 3px;
+	margin-right: 5px;
+}
+.jtl{
+	width: 35px;
+  height: 70px;
+  position: absolute;
+
+  left: 0;
+  top:50%;
+  margin-top: -35px;
+  
+  background: url(../img/lll.png) no-repeat left top; 
+  z-index:999;
+  cursor: pointer; 
+}
+.jtr{
+	width: 35px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  top:50%;
+  margin-top: -35px;
+  z-index:999;
+  background: url(../img/lll.png) no-repeat right top;
+  cursor: pointer;
+}
+
